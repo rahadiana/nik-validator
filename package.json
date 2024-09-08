@@ -1,0 +1,23 @@
+{
+  "name": "@rahadiana/nik-validator",
+  "version": "0.0.1",
+  "description": "validasi data NIK disdukcapil",
+  "main": "./index.js",
+  "scripts": {
+    "test": "node _test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahadiana/nik-validator.git"
+  },
+  "keywords": ["nik-parser","kemendagri","nik-validator"],
+  "author": "rahadiana nugraha <rahadiana.nugraha@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rahadiana/nik-validator/issues"
+  },
+  "homepage": "https://github.com/rahadiana/nik-validator#readme",
+  "dependencies": {
+    "@pemkotbekasi/ktp-parse": "github:pemkotbekasi/ktp-parse"
+  }
+}
